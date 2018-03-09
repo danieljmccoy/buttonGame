@@ -1,0 +1,95 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: 'Share Tech', monospace;
+  font-size: 16px;
+  background-color: #000;
+  color: #fff;
+}
+
+button {
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  max-width: 1000px;
+  min-width: 700px;
+  margin: 0 auto;
+}
+
+
+main, #center {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#top {
+  background-color: green;
+}
+
+#left {
+  background-color: red;
+}
+
+#right {
+  background-color: blue;
+}
+
+#bottom {
+  background-color: yellow;
+}
+
+#center {
+  width: 30%;
+}
+
+#counter {
+  margin: 10px;
+}
+
+#top-row, hr{
+  margin-top: 100px;
+}
+
+#middle-row, #top-row, #bottom-row, #controls {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.button {
+  text-align: center;
+  cursor: pointer;
+  opacity: .3;
+}
+
+.button-box {
+  width: 20%;
+  height: 150px;
+}
+
+
+.highlight {
+  opacity: .1;
+}
+
+.logo {
+  width: 80%;
+}
+
+.btn {
+  background: #e8f615;
+  background-image: linear-gradient(to bottom, #666, #655);
+  border-radius: 5px;
+  color: #000000;
+  padding: 5px 10px;
+  margin: 5px;
+}
